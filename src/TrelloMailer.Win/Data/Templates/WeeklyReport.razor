@@ -1,0 +1,18 @@
+﻿Weekly Report
+@{int i = 1;}
+@foreach(var b in Model)
+{
+	<h1>@i .@b.Name</h1>
+	foreach(var l in b.Lists)
+	{
+		<h2>@l.Name</h2>
+		<ul>
+		for(var c in l.Cards)
+		{
+			<li>@c.Name</li>
+		}
+		</ul>
+	}
+	
+	i++;
+}

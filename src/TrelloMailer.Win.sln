@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 11.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TrelloNet", "TrelloNet", "{F337FB96-C906-45DF-8BAF-A79CE83E3612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrelloNet", "TrelloNet\TrelloNet.csproj", "{9593A787-ED10-4493-9501-150F516FF166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrelloMailer.Core", "TrelloMailer.Core\TrelloMailer.Core.csproj", "{F239EA04-BC84-4160-9964-DBF045740D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrelloMailer.Tests", "TrelloMailer.Tests\TrelloMailer.Tests.csproj", "{3C840CFA-1725-4913-8F4A-106E664EA2B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrelloMailer.Win", "TrelloMailer.Win\TrelloMailer.Win.csproj", "{B9E1F177-5813-4AAF-98A6-9470CE6F412D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrelloMailer.Models", "TrelloMailer.Models\TrelloMailer.Models.csproj", "{3894F86B-7D44-4CFD-9A42-70E298533FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrelloMailer.Businesses", "TrelloMailer.Businesses\TrelloMailer.Businesses.csproj", "{E35624D4-C178-4064-9613-F81F7928225A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9593A787-ED10-4493-9501-150F516FF166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9593A787-ED10-4493-9501-150F516FF166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9593A787-ED10-4493-9501-150F516FF166}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9593A787-ED10-4493-9501-150F516FF166}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9593A787-ED10-4493-9501-150F516FF166}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9593A787-ED10-4493-9501-150F516FF166}.Debug|x86.Build.0 = Debug|Any CPU
+		{9593A787-ED10-4493-9501-150F516FF166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9593A787-ED10-4493-9501-150F516FF166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9593A787-ED10-4493-9501-150F516FF166}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9593A787-ED10-4493-9501-150F516FF166}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9593A787-ED10-4493-9501-150F516FF166}.Release|x86.ActiveCfg = Release|Any CPU
+		{9593A787-ED10-4493-9501-150F516FF166}.Release|x86.Build.0 = Release|Any CPU
+		{F239EA04-BC84-4160-9964-DBF045740D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F239EA04-BC84-4160-9964-DBF045740D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F239EA04-BC84-4160-9964-DBF045740D9E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F239EA04-BC84-4160-9964-DBF045740D9E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F239EA04-BC84-4160-9964-DBF045740D9E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F239EA04-BC84-4160-9964-DBF045740D9E}.Debug|x86.Build.0 = Debug|Any CPU
+		{F239EA04-BC84-4160-9964-DBF045740D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F239EA04-BC84-4160-9964-DBF045740D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F239EA04-BC84-4160-9964-DBF045740D9E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F239EA04-BC84-4160-9964-DBF045740D9E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F239EA04-BC84-4160-9964-DBF045740D9E}.Release|x86.ActiveCfg = Release|Any CPU
+		{F239EA04-BC84-4160-9964-DBF045740D9E}.Release|x86.Build.0 = Release|Any CPU
+		{3C840CFA-1725-4913-8F4A-106E664EA2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C840CFA-1725-4913-8F4A-106E664EA2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C840CFA-1725-4913-8F4A-106E664EA2B6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3C840CFA-1725-4913-8F4A-106E664EA2B6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3C840CFA-1725-4913-8F4A-106E664EA2B6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3C840CFA-1725-4913-8F4A-106E664EA2B6}.Debug|x86.Build.0 = Debug|Any CPU
+		{3C840CFA-1725-4913-8F4A-106E664EA2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C840CFA-1725-4913-8F4A-106E664EA2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C840CFA-1725-4913-8F4A-106E664EA2B6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3C840CFA-1725-4913-8F4A-106E664EA2B6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3C840CFA-1725-4913-8F4A-106E664EA2B6}.Release|x86.ActiveCfg = Release|Any CPU
+		{3C840CFA-1725-4913-8F4A-106E664EA2B6}.Release|x86.Build.0 = Release|Any CPU
+		{B9E1F177-5813-4AAF-98A6-9470CE6F412D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E1F177-5813-4AAF-98A6-9470CE6F412D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E1F177-5813-4AAF-98A6-9470CE6F412D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B9E1F177-5813-4AAF-98A6-9470CE6F412D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B9E1F177-5813-4AAF-98A6-9470CE6F412D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B9E1F177-5813-4AAF-98A6-9470CE6F412D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E1F177-5813-4AAF-98A6-9470CE6F412D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E1F177-5813-4AAF-98A6-9470CE6F412D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B9E1F177-5813-4AAF-98A6-9470CE6F412D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B9E1F177-5813-4AAF-98A6-9470CE6F412D}.Release|x86.ActiveCfg = Release|Any CPU
+		{3894F86B-7D44-4CFD-9A42-70E298533FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3894F86B-7D44-4CFD-9A42-70E298533FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3894F86B-7D44-4CFD-9A42-70E298533FCE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3894F86B-7D44-4CFD-9A42-70E298533FCE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3894F86B-7D44-4CFD-9A42-70E298533FCE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3894F86B-7D44-4CFD-9A42-70E298533FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3894F86B-7D44-4CFD-9A42-70E298533FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3894F86B-7D44-4CFD-9A42-70E298533FCE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3894F86B-7D44-4CFD-9A42-70E298533FCE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3894F86B-7D44-4CFD-9A42-70E298533FCE}.Release|x86.ActiveCfg = Release|Any CPU
+		{E35624D4-C178-4064-9613-F81F7928225A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35624D4-C178-4064-9613-F81F7928225A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35624D4-C178-4064-9613-F81F7928225A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E35624D4-C178-4064-9613-F81F7928225A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E35624D4-C178-4064-9613-F81F7928225A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E35624D4-C178-4064-9613-F81F7928225A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35624D4-C178-4064-9613-F81F7928225A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35624D4-C178-4064-9613-F81F7928225A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E35624D4-C178-4064-9613-F81F7928225A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E35624D4-C178-4064-9613-F81F7928225A}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9593A787-ED10-4493-9501-150F516FF166} = {F337FB96-C906-45DF-8BAF-A79CE83E3612}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = TrelloMailer.Win\TrelloMailer.Win.csproj
+	EndGlobalSection
+EndGlobal
