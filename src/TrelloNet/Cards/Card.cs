@@ -28,6 +28,21 @@ namespace TrelloNet
 
         public List<Member> Members { get; set; }
 
+        public string MemberNames 
+        {
+            get 
+            {
+                if (Members != null)
+                {
+                    return string.Join<TrelloNet.Member>(",", Members);
+                }
+                else 
+                {
+                    return string.Empty;
+                }
+            }
+        }
+
         public Card()
         {
             Members = new List<Member>();

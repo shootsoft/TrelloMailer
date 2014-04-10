@@ -64,7 +64,12 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Controllers\MainController.cs" />
-    <None Include="Data\Templates\WeeklyReport.razor" />
+    <None Include="Data\Templates\DailyReport.razor">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Data\Templates\WeeklyReport.razor">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Compile Include="Views\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +124,17 @@
       <Project>{9593a787-ed10-4493-9501-150f516ff166}</Project>
       <Name>TrelloNet</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Icons\done.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Icons\fav.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Icons\time.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -70,6 +70,21 @@ namespace TrelloMailer.Win
             mainController.ShowCard();
         }
 
+        private void ButtonSend_Click(object sender, EventArgs e)
+        {
+            mainController.SendMail();
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            webBrowserPreview.Navigate("about:blank");
+        }
+
+        private void webBrowserPreview_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            webBrowserPreview.Document.Write(TextEditorSource.Text);
+        }
+
 
     }
 }

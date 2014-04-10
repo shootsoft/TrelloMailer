@@ -1,0 +1,49 @@
+﻿Daily Report
+@{int i = 1;}
+@foreach(var b in Model)
+{
+	<h1>@i .@b.Name</h1>
+	foreach(var l in b.Lists)
+	{
+		<h2>@l.Name</h2>
+		<ul>
+		@{
+			foreach(var c in l.Cards)
+			{
+				if(c.DateLastActivity.Date==DateTime.Now.Date)
+				{
+					<li>
+					<h3>@c.Name (@c.MemberNames)</h3> 
+
+					@{
+						if(c.Checklists!=null)
+						{
+			
+							foreach(var cl in c.Checklists)
+							{
+								if(cl.CheckItems!=null)
+								{
+					
+									<h4>@cl.Name</h4>
+									<ul>
+										@{
+											foreach(var it in cl.CheckItems )
+											{
+												<li>@(it.Checked?"Done":"Todo") @it.Name</li>
+											}
+										}
+									</ul>
+								}
+							}
+						}
+					}
+					</li>
+				}
+			}
+
+		}
+		</ul>
+	}
+	
+	i++;
+}

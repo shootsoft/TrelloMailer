@@ -7,9 +7,12 @@
 	{
 		<h2>@l.Name</h2>
 		<ul>
-		for(var c in l.Cards)
-		{
-			<li>@c.Name</li>
+		@{
+			foreach(var c in l.Cards)
+			{
+				<li><h3>@c.Name (@c.MemberNames)</h3></li>
+			}
+
 		}
 		</ul>
 	}
